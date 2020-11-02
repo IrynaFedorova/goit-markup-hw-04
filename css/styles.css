@@ -444,6 +444,17 @@ html{
     background-color: #2F303A;
 }
 
+/*.overlay{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black ;
+    background-image: linear-gradient( to right, 
+    rgba(0, 0, 0, 0, 8) ),
+    rgba(0, 0, 0, 0, 8), url(../images/images-hm4/Img2optim.jpg;
+    background-size: cover;
+}*/
+
 .background-lengthening-footer{
     width:1600px;
     background-color: #2F303A;
