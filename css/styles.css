@@ -95,11 +95,11 @@ address{
     display: flex;
 }
 
-.site-nav-list-address .item+ .item{
+.site-nav-list-address .contacts-item+ .item{
     margin-left: 50px;
 }
 
-.item{
+.contacts-item{
     display: flex;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -125,7 +125,7 @@ address{
     color:var(--accent-color);
 }
 
-.site-nav .item:last-child{
+.site-nav .contacts-item:last-child{
     margin-right: 0;
 }
 
