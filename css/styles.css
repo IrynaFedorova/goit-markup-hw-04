@@ -172,6 +172,7 @@ address{
 
 .hero {
 background-color: #2F303A;
+/*background-image: url(../images/images-hm4/Img2optim.jpg);*/
 }
 
 .hero-name{
@@ -405,8 +406,14 @@ html{
     padding-left: 15px;
     padding-top:200px;
     padding-bottom:280px;
-    background-color: #2F303A;
+    background-color: #c4c4c4;
    text-align: center;
+   background-image: linear-gradient( rgba(47 48 58 / 40%), rgba(47, 48, 58, 0.4)),
+     url(../images/images-hm4/Img2optim.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  /*background-attachment: fixed;
+  background-position: top 100px center;*/
 }
 
 .background-lengthening{
