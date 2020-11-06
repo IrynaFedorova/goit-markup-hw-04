@@ -149,25 +149,8 @@ address{
  
 }
 
-/*paragraph*/
 
-.main-paragraph-h2{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1,7px;
-    margin-top: 4px;
-    flex-wrap: wrap;
-    width: 270px;
-    text-align: left;
-    margin-right: 20px;
-    }
 
-.heading{
-    display: flex;
-    margin:0;
-    font-size: 14px;
-    text-align: left;
-}
 /*Hero*/
 
 .hero {
@@ -193,6 +176,22 @@ background-color: #2F303A;
   .center { 
     text-align: center;
     border: 1px solid #black;
+}
+
+.main-container{
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top:200px;
+    padding-bottom:280px;
+    background-color: #c4c4c4;
+   text-align: center;
+   background-image: linear-gradient( rgba(47 48 58 / 40%), rgba(47, 48, 58, 0.4)),
+     url(../images/images-hm4/Img2optim.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+  /*background-attachment: fixed;
+  background-position: top 100px center;*/
 }
 
 /*buttun*/
@@ -400,21 +399,6 @@ html{
     padding-left: 15px;
 }
 
-.main-container{
-    margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top:200px;
-    padding-bottom:280px;
-    background-color: #c4c4c4;
-   text-align: center;
-   background-image: linear-gradient( rgba(47 48 58 / 40%), rgba(47, 48, 58, 0.4)),
-     url(../images/images-hm4/Img2optim.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-  /*background-attachment: fixed;
-  background-position: top 100px center;*/
-}
 
 .background-lengthening{
     background-color: #2F303A;
@@ -428,6 +412,7 @@ html{
 
 }
 
+/* o нас*/
 
 .section-details{
     width: 1200px;
@@ -438,6 +423,85 @@ html{
     display: flex;
    padding-bottom: 94px;
 }
+
+.heading{
+    display: flex;
+    margin:0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.main-paragraph-h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7px;
+    margin-top: 4px;
+    flex-wrap: wrap;
+    width: 270px;
+    text-align: left;
+    margin-right: 20px;
+    }
+
+.features .section-details {
+     padding: 94px 0px;
+     display: flex;
+      }
+.section-details .items {
+        /* width: 270px; */
+        width: calc((100% - 90px) / 4);
+      }
+      
+.section-details .items:not(:last-child) {
+        margin-right: 30px;
+      }
+.section-details .items::before {
+        display: block;
+        content: '';
+        height: 120px;
+      
+        background-color: #f5f4fa;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 4px;
+      }
+      .section-details .items:nth-child(1)::before {
+        background-image: url(../images/images-hm4/antena.svg);
+      }
+      .section-details .items:nth-child(2)::before {
+        background-image: url(../images/images-hm4/clock.svg);
+      }
+      .section-details .items:nth-child(3)::before {
+        background-image: url(../images/images-hm4/diagramm.svg);
+      }
+      .section-details .items:nth-child(4)::before {
+        background-image: url(../images/images-hm4/astronaut.svg);
+      }
+      .features .heading {
+        margin-top: 30px;
+        margin-bottom: 0px;
+      
+        color: var(--title-text-color);
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+      }
+      .features .main-paragraph-h2 {
+        margin-top: 10px;
+        margin-bottom: 0;
+      
+        color: var(--primary-text-color);
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+
+
+
+
 
 
 /*team*/
