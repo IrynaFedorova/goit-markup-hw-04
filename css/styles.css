@@ -151,6 +151,7 @@ address{
 
 
 
+
 /*Hero*/
 
 .hero {
@@ -684,3 +685,111 @@ border: 1px solid #EEEEEE;
 p{line-height:170%;
 }
 
+
+.footer .address {
+    margin-top: 20px;
+  
+    font-style: normal;
+  }
+  .footer .map {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+  }
+  .footer .link {
+    display: block;
+    margin-top: 9px;
+  
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+  }
+  .footer-join {
+    margin-left: 70px;
+  }
+  .footer-join-title {
+    margin-top: 10;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+  
+    color: #ffffff;
+  }
+  .container.footer-padding {
+    display: flex;
+  }
+  .footer-networks {
+    display: flex;
+    margin-top: 20px;
+  }
+  .footer-networks .footer-networks-links {
+    padding: 12px;
+  
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+  
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #ffffff;
+  }
+  .footer-networks-list:not(:last-child) {
+    margin-right: 10px;
+  }
+  .footer-networks-links:hover,
+  .footer-networks-links:focus {
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    fill: #ffffff;
+  }
+  
+
+
+
+  /* clients */
+.clients.container {
+    padding-bottom: 94px;
+  }
+  .clients .title {
+    margin-top: 94px;
+    margin-bottom: 0;
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+  }
+  .clients .clients-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .clients .clients-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .clients .clients-links {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+  
+    fill: #afb1b8;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+  }
+  .clients .clients-links:hover,
+  .clients .clients-links:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+  }
+  
