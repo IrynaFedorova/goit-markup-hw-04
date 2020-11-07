@@ -802,3 +802,6 @@ p{line-height:170%;
     fill: red;
   }
   
+  .clients-list .clients-item:nth-child(1)::before {
+    background-image: url(../images/First.svg);
+  }
