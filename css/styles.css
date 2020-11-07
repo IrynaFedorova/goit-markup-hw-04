@@ -522,14 +522,14 @@ html{
   .section-list > .list-description {
     padding-bottom: 30px;}
 
-/*.wrapper {
+.wrapper {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
    padding-top: 94px;
-}*/
+}
 
 .section-title{
     color:var(--title-text-color);
