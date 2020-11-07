@@ -798,10 +798,10 @@ p{line-height:170%;
     width: 1em;
     height: 1em;
     stroke-width: 0;
-    stroke: black;
-    fill: red;
+    stroke: currentColor;
+    fill: currentColor;
   }
   
-  .clients-list .clients-item:nth-child(1)::before {
+ /* .clients-list .clients-item:nth-child(1)::before {
     background-image: url(../images/First.svg);
-  }
+  }*/
