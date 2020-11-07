@@ -792,4 +792,13 @@ p{line-height:170%;
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
   }
+
+  .clients-icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: black;
+    fill: red;
+  }
   
