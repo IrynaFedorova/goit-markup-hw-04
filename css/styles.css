@@ -391,7 +391,15 @@ background-color: #2F303A;
   padding: 0 auto;
   width: 280px;*/
 
- 
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;}
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;}
 
 
 .footer-text-color-address{
