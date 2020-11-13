@@ -384,14 +384,14 @@ background-color: #2F303A;
     color: #FFFFFF;
   
 }
- ul.text-footer{
+ /*ul.text-footer{
   margin-left: 360px;
   border: 1px solid #ECECEC;
   margin: 0, auto;
   padding: 0 auto;
-  width: 280px;
+  width: 280px;*/
 
- }
+ 
 
 
 .footer-text-color-address{
@@ -863,8 +863,8 @@ border: 1px solid #EEEEEE;
 }
 .footer-join {
   display: block;
-  margin-left: 660px;
-border: 1px solid #ECECEC;
+  margin-left: 215px;
+/*border: 1px solid #ECECEC;*/
 
 }
 .footer-join-title {
