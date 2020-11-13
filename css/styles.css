@@ -101,6 +101,7 @@ address{
     color:var(--accent-color);
 }
 
+
 .site-nav-list-address {
     display: flex;
     margin-left: 170px;
@@ -634,19 +635,20 @@ svg.clients-icon{
   fill:#AFB1B8;
   width:50px;
   height: 45px;
-  position: absolute;
+  /*position: absolute;*/
   
   
 }
 
 svg.address-link-icon{
-  width: 10px;
-  height: 16px;
+  width: 30px;
+  height: 21px;
   fill:#757575;
   align-items: baseline;
   /*padding-right: 10px;*/
- 
-  
+  padding-top: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 a.address-link-icon:focus,
