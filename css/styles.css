@@ -657,8 +657,9 @@ svg.address-link-icon{
   overflow: hidden;
 }
 
-a.address-link-icon:focus,
-.address-link-icon:hover{
+
+.site-nav-list-address.address-link:focus .address-link-icon,
+.address-link:hover .address-link-icon{
   fill: var(--accent-color);
 }
     /*.clients-list .clients-item::before {
