@@ -636,9 +636,13 @@ svg.clients-icon{
   width:50px;
   height: 45px;
   /*position: absolute;*/
-  
-  
 }
+
+svg.clients-icon:focus,
+.clients-icon:hover{
+  fill: var(--accent-color);
+}
+
 
 svg.address-link-icon{
   width: 30px;
