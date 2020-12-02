@@ -638,10 +638,10 @@ svg.clients-icon{
   /*position: absolute;*/
 }
 
-svg.clients-icon:focus,
+/*svg.clients-icon:focus,
 .clients-icon:hover{
   fill: var(--accent-color);
-}
+}*/
 
 
 svg.address-link-icon{
@@ -662,6 +662,17 @@ svg.address-link-icon{
 .address-link:hover .address-link-icon{
   fill: var(--accent-color);
 }
+
+.contacts-item:focus,
+.contacts-item:hover{
+  fill: var(--accent-color);
+}
+
+.clients-links:focus .clients-icon,
+.clients-links:hover .clients-icon{
+  fill: var(--accent-color);
+}
+
     /*.clients-list .clients-item::before {
         display: block;
         content: '';
