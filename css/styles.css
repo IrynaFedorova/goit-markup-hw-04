@@ -663,8 +663,8 @@ svg.address-link-icon{
   fill: var(--accent-color);
 }
 
-.contacts-item:focus,
-.contacts-item:hover{
+li.contacts-item:focus,
+li.contacts-item:hover{
   fill: var(--accent-color);
 }
 
